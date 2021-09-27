@@ -51,3 +51,7 @@ bash background.sh
 ```
 
 Restart and done.
+
+## Source
+
+https://www.debugpoint.com/2021/07/change-lock-login-screen-background-elementary-os/
