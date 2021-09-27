@@ -25,26 +25,31 @@ sudo apt install git
 sudo apt install -y gnome-settings-daemon libaccountsservice-dev libgdk-pixbuf2.0-dev libgranite-dev libgtk-3-dev libhandy-1-dev liblightdm-gobject-1-dev libmutter-6-dev libwingpanel-dev libx11-dev meson valac
 ``` 
 
-### You need to put any png image called "texture.png" (with your desired resolution) in /home/your_username (or "$SUDO_USER")/Pictures, otherwise this won't work!
+#### You need to put any png image called "texture.png" (with your desired resolution) in /home/your_username (or "$SUDO_USER")/Pictures, otherwise this won't work!
 
-## Clone the repository
+## Installation
+
+### Become root user
+
+```
+sudo -i
+cd /tmp/
+```
+
+### Clone the repository
 
 Open a terminal and run the following git command:
 
 ```
-git clone https://github.com/Blackmanx/elementaryOS-lockscreen-bgreplacer
+git clone https://github.com/Blackmanx/elementaryOS-lockscreen-bgreplacer bgreplacer
+cd bgreplacer
 ```
 
-## Become root user
+### Put some image in Pictures folder called texture.png (with its png format).
 
-```
-sudo -i
-cd /home/"$SUDO_USER"/Downloads/elementaryOS-lockscreen-bgreplacer
-```
+![Screenshot](Pictures.png)
 
-(Or whichever path in which the script is located)
-
-## Run script
+### Run script
 
 ```
 bash background.sh
