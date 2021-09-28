@@ -17,12 +17,13 @@ This script is meant to be used in Elementary OS 6 Odin. You must be root user i
 * meson
 * valac
 * git
+* imagemagick-6.q16 (For blur version)
 
 To install dependencies:
 
 ```
 sudo apt install git
-sudo apt install -y gnome-settings-daemon libaccountsservice-dev libgdk-pixbuf2.0-dev libgranite-dev libgtk-3-dev libhandy-1-dev liblightdm-gobject-1-dev libmutter-6-dev libwingpanel-dev libx11-dev meson valac
+sudo apt install -y gnome-settings-daemon libaccountsservice-dev libgdk-pixbuf2.0-dev libgranite-dev libgtk-3-dev libhandy-1-dev liblightdm-gobject-1-dev libmutter-6-dev libwingpanel-dev libx11-dev meson valac imagemagick-6.q16
 ``` 
 
 #### You need to put any png image called "texture.png" (with your desired resolution) in /home/your_username (or "$SUDO_USER")/Pictures, otherwise this won't work!
@@ -53,6 +54,12 @@ cd bgreplacer
 
 ```
 bash background.sh
+```
+
+or, if you want blur
+
+```
+bash background-blur.sh
 ```
 
 Restart and done.
