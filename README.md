@@ -45,7 +45,7 @@ git clone https://github.com/Blackmanx/elementaryOS-lockscreen-bgreplacer bgrepl
 cd bgreplacer
 ```
 
-### Put some image in Pictures folder called texture.png (with its png format).
+### Put an image in Pictures folder called texture.png (with its png format).
 
 ![Screenshot](Pictures.png)
 
