@@ -1,6 +1,6 @@
 # elementaryOS-lockscreen-bgreplacer
 
-This script is meant to be used in Elementary OS 6 Odin. You must be root user in order for it to work. You need an image called texture.png inside your Pictures folder.
+This script is meant to be used in Elementary OS 6 Odin. You must be root user in order for it to work. You need an image called texture.png inside your Pictures folder. Everytime greeter is updated, you need to run this again.
 
 ## What do you need
 
